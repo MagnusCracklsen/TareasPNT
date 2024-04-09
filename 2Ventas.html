@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./js/Ventas.js"></script>
+</head>
+<center>
+<body>
+    <div>
+        <h1>Ventas</h1>
+        <h2>Problema</h2>
+        <p>Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.</p>
+    </div>
+    <form method="post" name="formulario" action="" onsubmit="return validar(this)">
+        <label>Ingrese su sueldo base: </label>
+        <br>
+        <input type="number" name="sueldo" id="sueldo">
+        <br>
+        <label>Ingrese el monto de su primera venta: </label>
+        <br>
+        <input type="number" name="venta1" id="venta1">
+        <br>
+        <label>Ingrese el monto de su segunda venta: </label>
+        <br>
+        <input type="number" name="venta2" id="venta2">
+        <br>
+        <label>Ingrese el monto de su tercera venta: </label>
+        <br>
+        <input type="number" name="venta3" id="venta3">
+        <br>
+        <input type="submit" name="enviar" value="Enviar Registro">
+        <input type="reset" name="borrar" value="Borrar Datos">
+        
+    </form>
+    
+    <h2>Resultado</h2>
+    <div id="resultado" class="tamaño"></div>
+
+    <div>
+        <footer>
+            <nav>
+                <a href="./Index.html"> <h2> Índice</h2></a></li>
+            </nav>
+            
+        </footer>
+    </div>
+    
+</body>
+</center>
+</html>

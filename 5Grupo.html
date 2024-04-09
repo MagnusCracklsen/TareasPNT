@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./img/jslogo.png">
+    <script src="./js/Grupo.js"></script>
+</head>
+<center>
+<body>
+    <div>
+        <h1>Grupo</h1>
+        <h2>Problema</h2>
+        <p>Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.</p>
+    </div>
+
+    <form method="post" name="formulario" action="" onsubmit="return validar(this)">
+        <label>Ingrese su cantidad total de Estudiantes en el Grupo: </label>
+        <br>
+        <input type="number" name="total" id="total">
+        <br>
+        <label>Ingrese el numero total de Hombres en su Grupo</label>
+        <br>
+        <input type="number" name="hombres" id="hombres">
+        <br>
+        <input type="submit" name="enviar" value="Enviar Registro">
+        <input type="reset" name="borrar" value="Borrar Datos">
+        
+    </form>
+    
+    <h2>Resultado</h2>
+    <div id="resultado" class="tamaño"></div>
+
+    <div>
+        <footer>
+            <nav>
+                <a href="./Index.html"> <h2> Índice </h2></a></li>
+            </nav>
+            
+        </footer>
+    </div>
+    
+</body>
+</center>
+</html>
